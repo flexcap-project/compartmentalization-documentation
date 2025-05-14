@@ -1,7 +1,15 @@
 site_name: Compartmentalization Documentation
-site_url: https://jkressel.github.io/compartmentalization/
+site_url: https://flexcap-project.github.io/compartmentalization-documentation/
 nav:
     - Home: index.md
+    - Compartmentalization Guide:
+      - What is Compartmentalization?: 01-what-is-compartmentalization.md
+      - Why Compartmentalization?: 02-why-compartmentalization.md
+      - Getting Started: 03-compartmentalization-getting-started.md
+      - Defining a Policy: 04-policy-definition.md
+      - Enforcing the Policy: 05-policy-enforcement.md
+      - Securing Interfaces: 06-interfaces.md
+      - Tutorial: 07-practical-application.md
 
 
 theme: readthedocs
