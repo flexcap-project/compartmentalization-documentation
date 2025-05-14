@@ -1,0 +1,7 @@
+site_name: Compartmentalization Documentation
+site_url: https://jkressel.github.io/compartmentalization/
+nav:
+    - Home: index.md
+
+
+theme: readthedocs
