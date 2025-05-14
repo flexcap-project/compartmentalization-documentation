@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://jkressel.github.io/compartmentalization/</loc>
+         <loc>https://flexcap-project.github.io/compartmentalization-documentation/</loc>
+         <lastmod>2025-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://flexcap-project.github.io/compartmentalization-documentation/chapters/01-what-is-compartmentalization/</loc>
+         <lastmod>2025-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://flexcap-project.github.io/compartmentalization-documentation/chapters/02-why-compartmentalization/</loc>
+         <lastmod>2025-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://flexcap-project.github.io/compartmentalization-documentation/chapters/03-compartmentalization-getting-started/</loc>
+         <lastmod>2025-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://flexcap-project.github.io/compartmentalization-documentation/chapters/04-policy-definition/</loc>
+         <lastmod>2025-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://flexcap-project.github.io/compartmentalization-documentation/chapters/05-policy-enforcement/</loc>
+         <lastmod>2025-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://flexcap-project.github.io/compartmentalization-documentation/chapters/06-interfaces/</loc>
+         <lastmod>2025-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://flexcap-project.github.io/compartmentalization-documentation/chapters/07-practical-application/</loc>
          <lastmod>2025-05-14</lastmod>
     </url>
 </urlset>
