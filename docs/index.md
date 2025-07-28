@@ -1,1 +1,3 @@
-A Guide to Compartmentalization
+A Guide to Compartmentalization 
+
+Authors: John Alistair Kressel, Hugo Lefeuvre and Pierre Olivier
