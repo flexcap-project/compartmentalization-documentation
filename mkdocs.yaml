@@ -1,15 +1,17 @@
-site_name: Compartmentalization Documentation
+site_name: "Software Compartmentalization: A Beginner's Guide"
 site_url: https://flexcap-project.github.io/compartmentalization-documentation/
 nav:
     - Home: index.md
-    - Compartmentalization Guide:
-      - What is Compartmentalization?: chapters/01-what-is-compartmentalization.md
-      - Why Compartmentalization?: chapters/02-why-compartmentalization.md
-      - Getting Started: chapters/03-compartmentalization-getting-started.md
-      - Defining a Policy: chapters/04-policy-definition.md
-      - Enforcing the Policy: chapters/05-policy-enforcement.md
-      - Securing Interfaces: chapters/06-interfaces.md
-      - Tutorial: chapters/07-practical-application.md
+    - What is Compartmentalization?: chapters/01-what-is-compartmentalization.md
+    - Why Compartmentalization?: chapters/02-why-compartmentalization.md
+    - Getting Started: chapters/03-compartmentalization-getting-started.md
+    - Defining a Policy: chapters/04-policy-definition.md
+    - Enforcing the Policy: chapters/05-policy-enforcement.md
+    - Securing Interfaces: chapters/06-interfaces.md
+    - Tutorial: chapters/07-practical-application.md
 
+markdown_extensions:
+  - admonition
+  - attr_list
 
-theme: readthedocs
+theme: material
