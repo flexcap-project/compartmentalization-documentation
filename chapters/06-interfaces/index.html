@@ -14,15 +14,13 @@
         <link rel="prev" href="../05-policy-enforcement/">
       
       
-        <link rel="next" href="../07-practical-application/">
-      
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>Securing Interfaces - Software Compartmentalization: A Beginner's Guide</title>
+        <title>6. Securing Interfaces - Software Compartmentalization: A Beginner's Guide</title>
       
     
     
@@ -100,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Securing Interfaces
+              6. Securing Interfaces
             
           </span>
         </div>
@@ -223,7 +221,7 @@
   
   
   <span class="md-ellipsis">
-    What is Compartmentalization?
+    1. What is Compartmentalization?
     
   </span>
   
@@ -245,7 +243,7 @@
   
   
   <span class="md-ellipsis">
-    Why Compartmentalization?
+    2. Why Compartmentalization?
     
   </span>
   
@@ -267,7 +265,7 @@
   
   
   <span class="md-ellipsis">
-    Getting Started
+    3. Getting Started
     
   </span>
   
@@ -289,7 +287,7 @@
   
   
   <span class="md-ellipsis">
-    Defining a Policy
+    4. Defining a Policy
     
   </span>
   
@@ -311,7 +309,7 @@
   
   
   <span class="md-ellipsis">
-    Enforcing the Policy
+    5. Enforcing the Policy
     
   </span>
   
@@ -342,35 +340,13 @@
   
   
   <span class="md-ellipsis">
-    Securing Interfaces
+    6. Securing Interfaces
     
   </span>
   
 
       </a>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../07-practical-application/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Tutorial
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -410,6 +386,18 @@
 
 
 <h1 id="securing-interfaces">Securing Interfaces</h1>
+<div class="admonition note todo">
+<p class="admonition-title">Note</p>
+<ul>
+<li>Present from a high level POV the problem of trust boundaries within software systems, using the well know examples e.g. command line arguments</li>
+<li>Explain that when compartmentalizing we add more trust boundaries within software which means interfaces between compartment must be designed with that in mind<ul>
+<li>And, if retrofitting compartmentalization, the interfaces must be hardened (because they have not been designed as trust boundaries</li>
+</ul>
+</li>
+<li>From the COnffuzz paper list the problems that can happen when not securing interfaces, conclude that they negate most benefits of compartmentalization</li>
+<li>Using the running example, show how the interfaces can be secured for that particular program. Ideally it would be a bit more complex than just adding a few checks.</li>
+</ul>
+</div>
 
 
 
